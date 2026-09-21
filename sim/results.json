@@ -1,0 +1,340 @@
+{
+  "seed": 20260921,
+  "parameters": {
+    "a": 1.0,
+    "b": 0.5,
+    "c": 0.65,
+    "d": 0.2
+  },
+  "window": {
+    "T": [
+      0.03,
+      0.58
+    ],
+    "E": [
+      0.25,
+      0.92
+    ]
+  },
+  "equilibrium": {
+    "T": 0.22222222222222224,
+    "E": 0.5617283950617284
+  },
+  "jacobian": [
+    [
+      0.017094017094017033,
+      -0.3076923076923077
+    ],
+    [
+      0.35000000000000003,
+      0.0
+    ]
+  ],
+  "eigenvalues_real": [
+    0.00854700854700852,
+    0.00854700854700852
+  ],
+  "eigenvalues_imag": [
+    0.32805374001404874,
+    -0.32805374001404874
+  ],
+  "linear_period": 19.152914723394137,
+  "nonlinear_period": 19.87554172685853,
+  "orbit_box": {
+    "T_min": 0.099590636749635,
+    "T_max": 0.41808661058391877,
+    "E_min": 0.39629040530292337,
+    "E_max": 0.7280828472301688
+  },
+  "method": {
+    "wendland": "psi_4_2",
+    "delta2": 1e-08,
+    "support_multiple_of_spacing": 9.0,
+    "gamma_menu": [
+      -0.55,
+      -0.4,
+      -0.25
+    ],
+    "gamma_selected": -0.55,
+    "gamma_rule": "smallest peak-to-peak of V on the orbit among cuts covering at least 95 percent of the orbit within two spacings",
+    "stencil_each_side": 4,
+    "stencil_step_in_spacings": 0.4,
+    "decision": "mean orbital derivative on the flow-aligned stencil",
+    "rebuild": "one solve with target 0 on the exceedance set and -1 off it"
+  },
+  "primary": {
+    "n": 34,
+    "n_points": 1156,
+    "spacing": 0.020303030303030323,
+    "shape": 5.472636815920393,
+    "support_radius": 0.1827272727272729,
+    "condition_number": 5962.634234394554,
+    "min_eigenvalue": 0.0035757837491637227,
+    "gamma": -0.55,
+    "geometry": {
+      "fail_fraction": 0.29325259515570934,
+      "fail_count": 339,
+      "distance_union_median": 0.02806105153530543,
+      "distance_union_p90": 0.07155432258431475,
+      "orbit_cover_within_1_5_spacing": 1.0,
+      "orbit_cover_within_2_spacing": 1.0,
+      "stray_fraction_of_fail": 0.09144542772861357,
+      "stray_count": 31,
+      "near_orbit_fail_count": 332,
+      "near_focus_fail_count": 7,
+      "near_orbit_tube_median": 0.028241772352654803,
+      "near_orbit_tube_p90": 0.07202254505903877,
+      "focus_blob_median": 0.015847684426803982,
+      "focus_blob_max": 0.028726697961402408,
+      "focus_to_nearest_fail": 0.010587183838057304
+    },
+    "flatness": {
+      "V_peak_to_peak": 0.024299988950736262,
+      "V_net": -0.00025157161632360925,
+      "V_mean": -1.0997759398542324,
+      "orbital_median": -0.0025054566017601587,
+      "orbital_p10": -0.10031373306071885,
+      "orbital_p90": 0.11179353990108588,
+      "orbital_max": 0.236421162579731,
+      "fraction_positive": 0.456
+    },
+    "stencil_median_fail": 0.0137082765234679,
+    "stencil_median_pass": -0.8779337919077462,
+    "node_orbital_max_abs_error": 2.5579538487363607e-13,
+    "any_point_fail_fraction_first_solve": 0.47058823529411764,
+    "mean_rule_fail_fraction_first_solve": 0.29325259515570934,
+    "binary_iterations": [
+      {
+        "iteration": 1,
+        "fail_fraction": 0.29325259515570934,
+        "distance_union_p90": 0.07155432258431475,
+        "orbit_cover_within_2_spacing": 1.0,
+        "V_peak_to_peak": 0.024299988950736262
+      },
+      {
+        "iteration": 2,
+        "fail_fraction": 0.36505190311418684,
+        "distance_union_p90": 0.17940638068002396,
+        "orbit_cover_within_2_spacing": 1.0,
+        "V_peak_to_peak": 0.01704140489503847
+      },
+      {
+        "iteration": 3,
+        "fail_fraction": 0.421280276816609,
+        "distance_union_p90": 0.1871953186180248,
+        "orbit_cover_within_2_spacing": 1.0,
+        "V_peak_to_peak": 0.014910783796816762
+      },
+      {
+        "iteration": 4,
+        "fail_fraction": 0.46280276816608995,
+        "distance_union_p90": 0.18759370581508197,
+        "orbit_cover_within_2_spacing": 1.0,
+        "V_peak_to_peak": 0.013610497727209125
+      },
+      {
+        "iteration": 5,
+        "fail_fraction": 0.49480968858131485,
+        "distance_union_p90": 0.1866059351375599,
+        "orbit_cover_within_2_spacing": 1.0,
+        "V_peak_to_peak": 0.012151871356681943
+      }
+    ]
+  },
+  "coarse": {
+    "n": 22,
+    "n_points": 484,
+    "spacing": 0.03190476190476188,
+    "shape": 3.4825870646766197,
+    "support_radius": 0.2871428571428569,
+    "condition_number": 5165.987602301402,
+    "min_eigenvalue": 0.0014698203850103523,
+    "gamma": -0.55,
+    "geometry": {
+      "fail_fraction": 0.3305785123966942,
+      "fail_count": 160,
+      "distance_union_median": 0.03327634524340605,
+      "distance_union_p90": 0.09403878907253095,
+      "orbit_cover_within_1_5_spacing": 1.0,
+      "orbit_cover_within_2_spacing": 1.0,
+      "stray_fraction_of_fail": 0.1,
+      "stray_count": 16,
+      "near_orbit_fail_count": 160,
+      "near_focus_fail_count": 0,
+      "near_orbit_tube_median": 0.03327634524340605,
+      "near_orbit_tube_p90": 0.09403878907253095,
+      "focus_blob_median": null,
+      "focus_blob_max": null,
+      "focus_to_nearest_fail": 0.07274967022867981
+    },
+    "flatness": {
+      "V_peak_to_peak": 0.019617160152775703,
+      "V_net": 0.0011386624177842641,
+      "V_mean": -1.2896482076485742,
+      "orbital_median": 0.0015340094770834867,
+      "orbital_p10": -0.10145320596222263,
+      "orbital_p90": 0.10517760689299323,
+      "orbital_max": 0.19489464831754333,
+      "fraction_positive": 0.504
+    },
+    "stencil_median_fail": -0.024995957110231948,
+    "stencil_median_pass": -0.8912784501032665,
+    "node_orbital_max_abs_error": 1.6697754290362354e-13,
+    "any_point_fail_fraction_first_solve": 0.5020661157024794,
+    "mean_rule_fail_fraction_first_solve": 0.3305785123966942
+  },
+  "fine": {
+    "n": 42,
+    "n_points": 1764,
+    "spacing": 0.01634146341463416,
+    "shape": 6.799336650082913,
+    "support_radius": 0.14707317073170745,
+    "condition_number": 6411.079499674687,
+    "min_eigenvalue": 0.005342873701443464,
+    "gamma": -0.55,
+    "geometry": {
+      "fail_fraction": 0.3112244897959184,
+      "fail_count": 549,
+      "distance_union_median": 0.029445792845454025,
+      "distance_union_p90": 0.08052252932404591,
+      "orbit_cover_within_1_5_spacing": 1.0,
+      "orbit_cover_within_2_spacing": 1.0,
+      "stray_fraction_of_fail": 0.08925318761384335,
+      "stray_count": 49,
+      "near_orbit_fail_count": 536,
+      "near_focus_fail_count": 13,
+      "near_orbit_tube_median": 0.029262084998357862,
+      "near_orbit_tube_p90": 0.08433351149745862,
+      "focus_blob_median": 0.04467847370919651,
+      "focus_blob_max": 0.060678962867250955,
+      "focus_to_nearest_fail": 0.004588245149344381
+    },
+    "flatness": {
+      "V_peak_to_peak": 0.02629877292391669,
+      "V_net": -0.0006777297230481372,
+      "V_mean": -0.8462971802887628,
+      "orbital_median": 0.011194665298715378,
+      "orbital_p10": -0.08545581433795846,
+      "orbital_p90": 0.09106331342820274,
+      "orbital_max": 0.2009018761044703,
+      "fraction_positive": 0.608
+    },
+    "stencil_median_fail": 0.02366294152241403,
+    "stencil_median_pass": -0.8920285008324842,
+    "node_orbital_max_abs_error": 3.410605131648481e-13,
+    "any_point_fail_fraction_first_solve": 0.5079365079365079,
+    "mean_rule_fail_fraction_first_solve": 0.3112244897959184
+  },
+  "gamma_variants": [
+    {
+      "n": 34,
+      "n_points": 1156,
+      "spacing": 0.020303030303030323,
+      "shape": 5.472636815920393,
+      "support_radius": 0.1827272727272729,
+      "condition_number": 5962.634234394554,
+      "min_eigenvalue": 0.0035757837491637227,
+      "gamma": -0.4,
+      "geometry": {
+        "fail_fraction": 0.2050173010380623,
+        "fail_count": 237,
+        "distance_union_median": 0.022463567861179104,
+        "distance_union_p90": 0.05558075059204474,
+        "orbit_cover_within_1_5_spacing": 0.9436997319034852,
+        "orbit_cover_within_2_spacing": 0.9638069705093834,
+        "stray_fraction_of_fail": 0.0970464135021097,
+        "stray_count": 23,
+        "near_orbit_fail_count": 234,
+        "near_focus_fail_count": 3,
+        "near_orbit_tube_median": 0.02324198701581747,
+        "near_orbit_tube_p90": 0.056200767822364446,
+        "focus_blob_median": 0.015252232071832796,
+        "focus_blob_max": 0.015847684426803982,
+        "focus_to_nearest_fail": 0.011428341093060807
+      },
+      "flatness": {
+        "V_peak_to_peak": 0.09769465189812765,
+        "V_net": 0.001776700344074511,
+        "V_mean": -1.3431918589468161,
+        "orbital_median": 0.08053109852286866,
+        "orbital_p10": -0.8474626418232434,
+        "orbital_p90": 0.2771067701655284,
+        "orbital_max": 0.6103208002655975,
+        "fraction_positive": 0.776
+      },
+      "stencil_median_fail": 0.1538701936703788,
+      "stencil_median_pass": -0.8531524848450889,
+      "node_orbital_max_abs_error": 3.126388037344441e-13,
+      "any_point_fail_fraction_first_solve": 0.3711072664359862,
+      "mean_rule_fail_fraction_first_solve": 0.2050173010380623
+    },
+    {
+      "n": 34,
+      "n_points": 1156,
+      "spacing": 0.020303030303030323,
+      "shape": 5.472636815920393,
+      "support_radius": 0.1827272727272729,
+      "condition_number": 5962.634234394554,
+      "min_eigenvalue": 0.0035757837491637227,
+      "gamma": -0.25,
+      "geometry": {
+        "fail_fraction": 0.1453287197231834,
+        "fail_count": 168,
+        "distance_union_median": 0.02057311513033798,
+        "distance_union_p90": 0.17007811603367848,
+        "orbit_cover_within_1_5_spacing": 0.7908847184986595,
+        "orbit_cover_within_2_spacing": 0.8270777479892761,
+        "stray_fraction_of_fail": 0.11904761904761904,
+        "stray_count": 20,
+        "near_orbit_fail_count": 168,
+        "near_focus_fail_count": 0,
+        "near_orbit_tube_median": 0.02057311513033798,
+        "near_orbit_tube_p90": 0.17007811603367848,
+        "focus_blob_median": null,
+        "focus_blob_max": null,
+        "focus_to_nearest_fail": 0.09250152920933401
+      },
+      "flatness": {
+        "V_peak_to_peak": 0.2130298544178837,
+        "V_net": 0.0013978252035555805,
+        "V_mean": -1.4449347833351696,
+        "orbital_median": 0.17362772883055477,
+        "orbital_p10": -0.879800717677038,
+        "orbital_p90": 0.6168338904685928,
+        "orbital_max": 1.3025864647188143,
+        "fraction_positive": 0.672
+      },
+      "stencil_median_fail": 0.3414186953370988,
+      "stencil_median_pass": -0.8337696901622493,
+      "node_orbital_max_abs_error": 5.409006575973763e-13,
+      "any_point_fail_fraction_first_solve": 0.31228373702422146,
+      "mean_rule_fail_fraction_first_solve": 0.1453287197231834
+    }
+  ],
+  "transient": {
+    "start": [
+      0.55,
+      0.88
+    ],
+    "V_start": 0.2147308518433484,
+    "V_after_one_period": 0.20868864891267294,
+    "drop_one_period": 0.00604220293067545,
+    "V_end": -1.0964811593489396,
+    "drop_total": 1.311212011192288
+  },
+  "flatness_over_one_period_drop": 4.02171016590133,
+  "return": {
+    "excursion_floor": 0.12,
+    "return_radius": 0.06,
+    "window_exit_fraction": 0.22404844290657439,
+    "window_exit_fraction_fail": 0.038348082595870206,
+    "window_exit_fraction_pass": 0.3011015911872705,
+    "return_fraction_all": 0.6098615916955017,
+    "return_fraction_fail": 0.8908554572271387,
+    "return_fraction_pass": 0.49326805385556916,
+    "return_fraction_orbit_tube": 1.0,
+    "return_fraction_focus_blob": 0.0,
+    "orbit_tube_count": 287,
+    "focus_blob_count": 7
+  }
+}

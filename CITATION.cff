@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you cite this computational research thesis, please use the metadata below. No DOI is minted here; do not invent one."
+type: thesis
+title: "Complete Lyapunov Functions and Chain-Recurrent Partitions for a Cancer-State Ordinary Differential Equation"
+authors:
+  - family-names: Ogbonna
+    given-names: Kelechi Emeka
+    email: kelechiogbonna300@gmail.com
+    alias: cloudynirvana
+abstract: >-
+  Can a complete Lyapunov construction (mesh-free / radial-basis ideas in the
+  spirit of Argáez, Giesl, and Hafstein) partition a low-dimensional
+  cancer-state ODE into chain-recurrent versus transient regions in a way
+  that is reproducible from the vector field alone, without interpreting
+  basins as treatment response? A planar tumour-effector toy has an unstable
+  focus and a periodic orbit of period 19.88. Wendland collocation at the
+  selected cut marks 339 of 1156 nodes. The orbit is covered on three grids.
+  Along the orbit the rebuilt function changes by 0.024 from peak to peak,
+  while a transient drops by 1.31. The focus is resolved only on the finer
+  grids. The failing set is not a certified chain-recurrent set. Not a
+  medical device.
+keywords:
+  - complete Lyapunov function
+  - chain recurrence
+  - meshless collocation
+  - Wendland function
+  - tumour-effector equation
+  - periodic orbit
+  - Conley decomposition
+  - computational dynamics
+  - research-only
+license: MIT
+date-released: "2026-09-21"
+url: "https://github.com/cloudynirvana/thesis-17-complete-lyapunov-cancer-ode"
+repository-code: "https://github.com/cloudynirvana/thesis-17-complete-lyapunov-cancer-ode"
+preferred-citation:
+  type: thesis
+  title: "Complete Lyapunov Functions and Chain-Recurrent Partitions for a Cancer-State Ordinary Differential Equation"
+  authors:
+    - family-names: Ogbonna
+      given-names: Kelechi Emeka
+  year: 2026
+  month: 9
+  url: "https://github.com/cloudynirvana/thesis-17-complete-lyapunov-cancer-ode"
+  notes: "Thesis #17. Computational research. Declared toy vector field, not a fit and not a treatment model. No document DOI."
